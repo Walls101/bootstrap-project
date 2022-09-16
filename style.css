@@ -19,13 +19,17 @@ body {
 span {
     color: rgb(48, 186, 33)
 }
-.btn-purple {
+.btn_green {
     margin: 0 auto;
     color: white;
     border-radius: 20px;
     width: 180px;
     background-color: rgb(48, 186, 33)
 }
+.btn:first-child:hover, :not(.btn-check)+.btn:hover {
+    background-color: green;
+}
+
 h1 {
     font-size: 60px;
 }
